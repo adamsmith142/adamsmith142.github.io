@@ -59,16 +59,21 @@
             text-align: center;
         }
 
-          main {
-            flex: 1;
-            width: 100%;
-            padding: 20px;
-            box-sizing: border-box;
-            margin-left: 25%;
-            margin-right: 0; /* Adjusted to ensure margin is only on the left */
-            overflow-y: auto;
-            align-items: flex-start; 
-        }
+         main {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 25%;
+    margin-right: 0; /* Adjusted to ensure margin is only on the left */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main > * {
+    align-self: flex-start; /* Align text to the left in the main content */
+}
 
         .tabs {
             display: flex;
