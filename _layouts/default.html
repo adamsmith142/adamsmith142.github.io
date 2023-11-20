@@ -93,15 +93,18 @@
 <body>
     <div class="wrapper">
         <header>
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-            <div class="circular-logo">
-                {% if site.logo %}
-                    <img src="{{site.logo | relative_url}}" alt="Logo" />
-                {% endif %}
-            </div>
-            <p>{{ site.description | default: site.github.project_tagline }}</p>
-            <!-- ... (existing header content) ... -->
-        </header>
+    <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+    <div class="circular-logo">
+        {% if site.logo %}
+            <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+    </div>
+    <p>{{ site.description | default: site.github.project_tagline }}</p>
+    <!-- Add your contact details here -->
+    <p>Email: <a href="mailto:adam.smith.20@ucl.ac.uk">adam.smith.20@ucl.ac.uk</a></p>
+    <p>Twitter: <a href="https://twitter.com/adamlikesrocks" target="_blank" rel="noopener noreferrer">@AdamLikesRocks</a></p>
+    <!-- ... (existing header content) ... -->
+</header>
         <main>
             <div class="tabs">
                 <a href="{{ "/Research" | absolute_url }}" class="tab">About</a>
