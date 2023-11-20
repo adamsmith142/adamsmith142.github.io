@@ -19,9 +19,9 @@
         }
 
         header {
-            width: 25%; /* Adjusted width for the left side */
-            min-width: 200px; /* Minimum width for the left side */
-            background-color: #f0f0f0; /* Gray background color for the left side */
+            width: 25%;
+            min-width: 200px;
+            background-color: #f0f0f0;
             padding: 20px;
             box-sizing: border-box;
             position: fixed;
@@ -31,7 +31,8 @@
             z-index: 1;
         }
 
-        flex: 1;
+        main {
+            flex: 1;
             padding: 20px;
             box-sizing: border-box;
             margin-left: 25%;
@@ -41,7 +42,7 @@
 
         .tabs {
             display: flex;
-            background-color: #333; /* Dark background color for the tabs */
+            background-color: #333;
             position: sticky;
             top: 0;
             z-index: 2;
@@ -51,13 +52,13 @@
             flex: 1;
             padding: 10px 15px;
             text-align: center;
-            color: #fff; /* Text color for the tabs */
+            color: #fff;
             text-decoration: none;
-            border-right: 2px solid #555; /* Border between tabs */
+            border-right: 1px solid #555;
         }
 
         .tab:last-child {
-            border-right: none; /* Remove border for the last tab */
+            border-right: none;
         }
     </style>
     {% include head-custom.html %}
