@@ -10,11 +10,11 @@
             flex-direction: column;
             height: 100vh;
             margin: 0;
+            font-family: Arial, sans-serif;
         }
 
         .wrapper {
             display: flex;
-            flex: 1;
             overflow: hidden;
         }
 
@@ -23,25 +23,40 @@
             background-color: #f0f0f0; /* Gray background color for the left side */
             padding: 20px;
             box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            z-index: 1;
         }
 
         main {
             flex: 1;
             padding: 20px;
             box-sizing: border-box;
+            margin-left: 300px; /* Adjusted to match the width of the header */
+            overflow-y: auto; /* Allow the main content to scroll */
         }
 
         .tabs {
             display: flex;
+            background-color: #333; /* Dark background color for the tabs */
+            position: sticky;
+            top: 0;
+            z-index: 2;
         }
 
         .tab {
-            background-color: #555; /* Gray color for the tabs */
-            color: #fff; /* Text color for the tabs */
+            flex: 1;
             padding: 10px 15px;
-            margin-right: 10px;
+            text-align: center;
+            color: #fff; /* Text color for the tabs */
             text-decoration: none;
-            border-radius: 5px;
+            border-right: 1px solid #555; /* Border between tabs */
+        }
+
+        .tab:last-child {
+            border-right: none; /* Remove border for the last tab */
         }
     </style>
     {% include head-custom.html %}
