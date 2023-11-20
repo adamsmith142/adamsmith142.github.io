@@ -58,7 +58,7 @@
 
         main {
             flex: 1;
-            width: 60%;
+            width: 60%; /* Set a fixed width for the main content */
             padding: 20px;
             box-sizing: border-box;
             margin-left: 32.5%; /* 25% + 7.5% gap */
@@ -66,7 +66,7 @@
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            align-items: flex-start; /* Align text to the left in the main content */
+            align-items: center; /* Center the main content horizontally */
         }
 
         .tabs {
@@ -75,6 +75,9 @@
             position: sticky;
             top: 0;
             z-index: 2;
+            width: 60%; /* Set a fixed width for the tabs */
+            margin-left: 32.5%; /* 25% + 7.5% gap */
+            margin-right: 7.5%;
         }
 
         .tab {
@@ -108,15 +111,4 @@
             <div class="tabs">
                 <a href="{{ "/about" | absolute_url }}" class="tab">About</a>
                 <a href="{{ "/research" | absolute_url }}" class="tab">Research</a>
-                <a href="{{ "/publications" | absolute_url }}" class="tab">Publications</a>
-                <a href="{{ "/cv" | absolute_url }}" class="tab">CV</a>
-            </div>
-            {{ content }}
-        </main>
-    </div>
-    <footer>
-        <!-- ... (existing footer content) ... -->
-    </footer>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-</body>
-</html>
+                <a href="{{ "/publications" | absolute_url }}" cl
