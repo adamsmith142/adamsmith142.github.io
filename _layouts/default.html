@@ -29,6 +29,30 @@
             left: 0;
             bottom: 0;
             z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center the content horizontally */
+        }
+
+        header h1 {
+            margin-bottom: 10px; /* Add some space between title and circular logo */
+        }
+
+        header .circular-logo {
+            width: 100px; /* Adjust the width of the circular logo */
+            height: 100px; /* Adjust the height of the circular logo */
+            border-radius: 50%; /* Create a circular shape */
+            overflow: hidden; /* Hide any content that goes beyond the circular shape */
+        }
+
+        header .circular-logo img {
+            width: 100%; /* Make the image fill the circular shape */
+            height: auto;
+            border: 2px solid #333; /* Add a border to the circular shape */
+        }
+
+        p {
+            text-align: center;
         }
 
         main {
@@ -36,7 +60,7 @@
             padding: 20px;
             box-sizing: border-box;
             margin-left: 25%;
-            margin-right: 0; /* Adjusted to ensure margin is only on the left */
+            margin-right: 0;
             overflow-y: auto;
         }
 
@@ -67,9 +91,11 @@
     <div class="wrapper">
         <header>
             <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-            {% if site.logo %}
-                <img src="{{site.logo | relative_url}}" alt="Logo" />
-            {% endif %}
+            <div class="circular-logo">
+                {% if site.logo %}
+                    <img src="{{site.logo | relative_url}}" alt="Logo" />
+                {% endif %}
+            </div>
             <p>{{ site.description | default: site.github.project_tagline }}</p>
             <!-- ... (existing header content) ... -->
         </header>
