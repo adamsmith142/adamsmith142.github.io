@@ -11,10 +11,11 @@ River network inversions can bridge the gap between these timescales, providing 
 
 ![fieldwork_wasatch](https://github.com/adamsmith142/adamsmith142.github.io/blob/main/images/fieldwork_wasatch.jpg)
 
-Having recovered the rock uplift rate history of the Wasatch Range from 3 river networks draining the Wasatch, we demonstrate that rock uplift rate has increased and decreased over the last million years. 
+Having recovered the rock uplift rate history of the Wasatch Range from 3 river networks draining the Wasatch, we demonstrate that rock uplift rate has increased and decreased over the last million years. Periodic increases in rock uplift rate have coincided with the development of pluvial lakes on the adjacent Bonneville basin, implicating lake rise and fall in controlling fault slip. We therefore provide evidence the the mechanism described by Hetzel and Hampel (2005) has been ongoing throughout the Pleistocene.
 
 
-### Surface Uplift in the Uintas
+
+
 
 ### Beyond Tectonics
 
