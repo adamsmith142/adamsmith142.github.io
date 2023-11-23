@@ -14,8 +14,11 @@ River network inversions can bridge the gap between these timescales, providing 
 Having recovered the rock uplift rate history of the Wasatch Range from 3 river networks draining the Wasatch, we demonstrate that rock uplift rate has increased and decreased over the last million years. Periodic increases in rock uplift rate have coincided with the development of pluvial lakes on the adjacent Bonneville basin, implicating lake rise and fall in controlling fault slip. We therefore provide evidence the the mechanism described by Hetzel and Hampel (2005) has been ongoing throughout the Pleistocene.
 
 ![uplift_wasatch](https://github.com/adamsmith142/adamsmith142.github.io/blob/main/images/three_canyons_colours_corrected.png)
+_The rock uplift rate history of the Wasatch Range inferred from three river networks_
 
-
+### Surface Uplift in the Sierra Nevada
+Recent Sierra Nevadan surface uplift has been much debated. We used an inversion based on the methdology of Fox (2019) to infer the pattern of surface uplift across the southern Sierra Nevada. We found that the pattern of surface uplift recovered from the networks of the Sierra Nevada shows increased surface uplift in the centre of the range, which could be intepreted as produced by support from buoyant asthenosphere, associated with the Isabella anomaly. Our methodology is advantageous, as we use the entire river network to infer surface uplift, which provides greater resolution on surface uplift parameters. 
 
 ### Beyond Tectonics
+I have been investigating how inversions can be used to 
 
