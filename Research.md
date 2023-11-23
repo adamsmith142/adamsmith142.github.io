@@ -21,7 +21,3 @@ Recent Sierra Nevadan surface uplift has been much debated. We used an inversion
 
 ![masked_solution](https://github.com/adamsmith142/adamsmith142.github.io/assets/73285043/95b91f41-678a-4c3f-b525-8f002c752c43)
 _A u* map and surface uplift map created from relict topography in the southern Sierra Nevada. The L-surface shows the chosen parameters used in the inversion_
-
-### Beyond Tectonics
-I have been investigating how inversions can be used to 
-
