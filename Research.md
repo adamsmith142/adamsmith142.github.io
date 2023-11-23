@@ -9,7 +9,8 @@ The Wasatch Range, Utah, is located on the eastern boundary of the Basin and Ran
 
 River network inversions can bridge the gap between these timescales, providing rock uplift rate histories on the million year timescale. We therefore attempted to constrain the million year history of the Wasatch Range by using a river network inversion to infer rock uplift rates through time. We combined this approach with field data, and a number of data sets such as AHe data and erosion rate data derived from cosmogenic nuclides to tightly constrain our model parameters. 
 
-[adamsmith142](https://github.com/adamsmith142/adamsmith142.github.io/blob/main/fieldwork_wasatch.jpg)
+![fieldwork_wasatch](https://github.com/adamsmith142/adamsmith142.github.io/assets/73285043/8b8b50db-73f1-49fd-a2d3-da5e7b1bf94b)
+
 
 ### Surface Uplift in the Uintas
 
