@@ -11,4 +11,4 @@ I have taught on a variety of courses, that include modules designed for first y
 
 
 ![IMG_7325](https://github.com/adamsmith142/adamsmith142.github.io/assets/73285043/01ff2953-eecb-4a39-b3b6-c6392a6b1b0b)
-_Teaching on the Yale University global tectonics field trip_
+_Teaching on the Yale University global tectonics field trip in Oman_
