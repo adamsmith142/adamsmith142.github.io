@@ -1,10 +1,10 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
     <!-- ... (existing head content) ... -->
     <title>Adam G G Smith</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <meta name="description" content="Adam G G Smith is a tectonic geomoprhologist, using topographic inversions to undertsand Earth's dynamic surface.">
+    <meta name="description" content="Adam G G Smith is a tectonic geomorphologist, using topographic inversions to understand Earth's dynamic surface.">
     <!-- ... (existing styles or links) ... -->
     <style>
         body {
@@ -36,48 +36,47 @@
         }
 
         header h1 {
-            margin-bottom: 10px; /* Add some space between title and circular logo */
+            margin-bottom: 10px;
+            font-size: 24px; /* Adjust the value as needed for the desired title font size */
         }
 
         header .circular-logo {
             width: 75%;
-            margin: 0 auto; /* Center the logo within the header */
+            margin: 0 auto;
         }
 
         header .circular-logo img {
             width: 100%;
             height: 100%;
-        
         }
+
         header p {
-            margin: 5px 0; /* Add some spacing between contact details and other elements */
+            margin: 5px 0;
             text-align: center;
         }
 
-            main {
+        main {
             flex: 1;
             width: 100%;
-            padding: 20px;
-            padding-top: 10px;
             box-sizing: border-box;
             margin-left: 25%;
-            margin-right: 0; /* Adjusted to ensure margin is only on the left */
+            margin-right: 0;
             overflow-y: auto;
+            padding: 20px;
+            padding-top: 10px;
             display: flex;
             flex-direction: column;
             text-align: left;
-}
-
+        }
 
         .tabs {
             display: flex;
-            top: = -20px;
+            top: -20px;
             background-color: #333;
             width: 100%;
             position: sticky;
             top: 0;
             z-index: 2;
-        
         }
 
         .tab {
@@ -92,27 +91,22 @@
         .tab:last-child {
             border-right: none;
         }
-        
-
     </style>
-    {Adam Smith}
 </head>
 <body>
     <div class="wrapper">
         <header>
-     <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
-    <div class="circular-logo">
-        {% if site.logo %}
-            <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-    </div>
-    <p>{{ site.description | default: site.github.project_tagline }}</p>
-    <!-- Add your contact details here -->
-    <p>Email: <a href="mailto:adam.smith.20@ucl.ac.uk">adam.smith.20@ucl.ac.uk</a></p>
-    <p>Twitter: <a href="https://twitter.com/adamlikesrocks" target="_blank" rel="noopener noreferrer">@AdamLikesRocks</a></p>
-    <p>Github: <a href="https://github.com/adamsmith142">adamsmith142</a></p>
-    <!-- ... (existing header content) ... -->
-</header>
+            <h1>Adam G G Smith</h1>
+            <div class="circular-logo">
+                <!-- ... (existing logo code) ... -->
+            </div>
+            <p>{{ site.description | default: site.github.project_tagline }}</p>
+            <!-- Add your contact details here -->
+            <p>Email: <a href="mailto:adam.smith.20@ucl.ac.uk">adam.smith.20@ucl.ac.uk</a></p>
+            <p>Twitter: <a href="https://twitter.com/adamlikesrocks" target="_blank" rel="noopener noreferrer">@AdamLikesRocks</a></p>
+            <p>Github: <a href="https://github.com/adamsmith142">adamsmith142</a></p>
+            <!-- ... (existing header content) ... -->
+        </header>
         <main>
             <div class="tabs">
                 <a href="{{ "/Research" | Adam G G Smith's Research}}" class="tab">Research</a>
