@@ -15,7 +15,7 @@ Fox, M., Clinger, A., **Smith, A.G.G.**, Cuffey, K., Shuster, D., Herman, F., In
 
 **Smith, A.G.G.**, Fox, M., Miller, S.R., Anderson, L., In Review. Discovery of lithospheric drip explains active surface uplift in the Uinta Mountains. 
 
-**Smith, A.G.G.** and Fox, M. In Review. Accounting for Spatial Gradiens in Landscapes with Large Topographic Inversions: Constraining the Concavity Index. 
+**Smith, A.G.G.** and Fox, M. In Review. Accounting for Spatial Gradients in Landscapes with Large Topographic Inversions: Constraining the Concavity Index. 
 
 Fox, M., **Smith, A.G.G.**, Vermeesch, P., Gallagher, K., Carter, A., In Review. Origin of the Great Unconformity obscured by thermochronometric uncertainty. 
 
