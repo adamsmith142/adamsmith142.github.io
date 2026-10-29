@@ -16,7 +16,7 @@ A central question is how deep-Earth processes can produce observable patterns o
 
 ### Project overview
 
-*Add a fuller introduction here: What is the central question, why is it important, and what competing explanations does the project test?*
+*Coming Soon*
 
 ## River integration and landscape evolution
 
@@ -26,11 +26,11 @@ A related paper, *A lithospheric drip triggered Green and Colorado River integra
 
 ### Methods and evidence
 
-*Add details here about the data, inversion methods, landscape-evolution modelling, field observations and independent geological or geophysical constraints used in this project.*
+*Coming Soon*
 
 ## Key findings
 
-*Add the main results here, ideally supported by one or two figures with short captions explaining what each figure shows.*
+*Coming Soon*
 
 ## Publications and related media
 
