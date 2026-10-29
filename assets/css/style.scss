@@ -156,29 +156,37 @@ img { max-width: 100%; height: auto; }
 }
 
 
-/* Use the uploaded home-town DEM contours only in the bottom-right corner. */
-.site-main {
+/* Fixed viewport decoration: uploaded DEM contours remain in the bottom-right corner while pages scroll. */
+body {
   position: relative;
-  isolation: isolate;
-  overflow: hidden;
 }
-.site-main::before {
-  content: none;
-}
-.site-main::after {
+body::after {
   content: "";
-  position: absolute;
+  position: fixed;
   z-index: 0;
-  right: -76px;
-  bottom: -34px;
-  width: clamp(320px, 46vw, 560px);
+  right: -64px;
+  bottom: -38px;
+  width: clamp(400px, 53vw, 700px);
   aspect-ratio: 783 / 499;
-  background-image: url("../img/DEMContours.svg?v=3");
+  background-image: url("../img/DEMContours.svg?v=4");
   background-repeat: no-repeat;
   background-size: 138% auto;
   background-position: 58% 58%;
   pointer-events: none;
-  opacity: .16;
+  opacity: .27;
+}
+.site-shell {
+  position: relative;
+  z-index: 1;
+}
+.site-main {
+  position: relative;
+  isolation: isolate;
+  overflow: visible;
+}
+.site-main::before,
+.site-main::after {
+  content: none;
 }
 .page-topline,
 .page-content,
@@ -187,18 +195,18 @@ img { max-width: 100%; height: auto; }
   z-index: 1;
 }
 @media (max-width: 900px) {
-  .site-main::after {
-    right: -70px;
+  body::after {
+    right: -54px;
     bottom: -26px;
-    width: clamp(270px, 48vw, 390px);
-    opacity: .14;
+    width: clamp(330px, 55vw, 470px);
+    opacity: .24;
   }
 }
 @media (max-width: 560px) {
-  .site-main::after {
-    right: -105px;
-    bottom: -18px;
-    width: 285px;
-    opacity: .12;
+  body::after {
+    right: -110px;
+    bottom: -22px;
+    width: 345px;
+    opacity: .22;
   }
 }
