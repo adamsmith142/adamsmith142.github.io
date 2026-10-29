@@ -156,38 +156,45 @@ img { max-width: 100%; height: auto; }
 }
 
 
-/* Fine topographic contour lines: decorative, lightweight and non-interactive. */
-.site-main { position: relative; }
+/* Detailed topographic contours sit quietly in the bottom corners. */
+.site-main {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
 .site-main::before,
-.site-header::after {
+.site-main::after {
   content: "";
   position: absolute;
-  z-index: 0;
-  pointer-events: none;
+  z-index: -1;
+  bottom: 0;
+  width: clamp(260px, 38vw, 470px);
+  aspect-ratio: 640 / 420;
+  background-image: url("/assets/img/topographic-contours.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  opacity: .42;
+  pointer-events: none;
+  opacity: .19;
 }
-.site-main::before {
-  top: 82px;
-  right: -8px;
-  width: clamp(130px, 18vw, 245px);
-  aspect-ratio: 1.18;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 200' fill='none'%3E%3Cg stroke='%23315846' stroke-width='1.15' opacity='.62'%3E%3Cpath d='M244 5C205 9 204 31 173 36S128 23 101 39 88 71 58 76 16 63 -8 87'/%3E%3Cpath d='M248 20C211 24 213 45 179 51S133 39 108 53 96 85 64 91 17 78 -9 103'/%3E%3Cpath d='M248 38C220 41 219 60 187 66S142 54 117 69 103 100 73 106 25 94 -8 119'/%3E%3Cpath d='M248 57C222 60 227 78 195 84S150 72 127 86 114 117 83 123 31 112 -7 136'/%3E%3Cpath d='M248 76C228 80 232 96 204 102S161 90 138 104 124 134 95 140 41 129 -7 154'/%3E%3Cpath d='M248 96C230 99 238 115 212 121S171 109 149 123 136 151 107 158 51 146 -7 173'/%3E%3Cpath d='M248 117C234 119 242 135 220 140S182 128 161 142 149 169 120 176 64 164 -7 191'/%3E%3C/g%3E%3Cpath d='M237 4C207 12 207 27 183 31' stroke='%23ad704b' stroke-width='1.4' opacity='.8'/%3E%3C/svg%3E");
+.site-main::before { left: -100px; }
+.site-main::after {
+  right: -105px;
+  transform: scaleX(-1);
+  opacity: .15;
 }
-.site-header::after {
-  bottom: 18px;
-  left: -28px;
-  width: 175px;
-  aspect-ratio: 1;
-  opacity: .28;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' fill='none'%3E%3Cg stroke='%23315846' stroke-width='1.1'%3E%3Cpath d='M-10 24C22 4 48 11 65 31S94 59 117 43 150 10 188 27'/%3E%3Cpath d='M-10 39C22 19 48 26 65 46S94 74 117 58 150 25 188 42'/%3E%3Cpath d='M-10 55C22 35 48 42 65 62S94 90 117 74 150 41 188 58'/%3E%3Cpath d='M-10 72C22 52 48 59 65 79S94 107 117 91 150 58 188 75'/%3E%3Cpath d='M-10 91C22 71 48 78 65 98S94 126 117 110 150 77 188 94'/%3E%3Cpath d='M-10 111C22 91 48 98 65 118S94 146 117 130 150 97 188 114'/%3E%3Cpath d='M-10 132C22 112 48 119 65 139S94 167 117 151 150 118 188 135'/%3E%3C/g%3E%3C/svg%3E");
-}
-.site-main > *, .site-header > * { position: relative; z-index: 1; }
 @media (max-width: 900px) {
-  .site-header::after { display: none; }
-  .site-main::before { top: 62px; right: 0; width: 145px; opacity: .25; }
+  .site-main::before, .site-main::after {
+    width: clamp(220px, 42vw, 340px);
+    opacity: .15;
+  }
+  .site-main::before { left: -90px; }
+  .site-main::after { right: -90px; }
 }
 @media (max-width: 560px) {
-  .site-main::before { top: 58px; width: 105px; opacity: .2; }
+  .site-main::before, .site-main::after {
+    width: 230px;
+    opacity: .12;
+  }
+  .site-main::before { left: -105px; }
+  .site-main::after { right: -105px; }
 }
