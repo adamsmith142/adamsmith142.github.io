@@ -24,9 +24,14 @@ I’m interested in sharing what landscapes can tell us about the dynamic Earth 
       <span class="media-feature__link-action">Read my article in The Conversation ↗</span>
     </a>
     <a class="media-feature__link" href="https://www.lemonde.fr/en/environment/article/2026/04/02/the-mystery-of-the-green-river-s-uphill-flow-in-the-american-west-is-solved-after-150-years_6752036_114.html" target="_blank" rel="noopener noreferrer">
-      <span class="media-feature__link-type">INTERNATIONAL COVERAGE</span>
+      <span class="media-feature__link-type">INTERNATIONAL MEDIA</span>
       <strong>The mystery of the Green River’s “uphill flow”</strong>
-      <span class="media-feature__link-action">Read the Le Monde feature ↗</span>
+      <span class="media-feature__link-action">Read the Le Monde feature (Paywall) ↗</span>
+    </a>
+    <a class="media-feature__link" href="https://www.livescience.com/planet-earth/geology/the-colorado-rivers-largest-tributary-flows-uphill-for-over-100-miles-and-geologists-may-finally-have-an-explanation-for-it" target="_blank" rel="noopener noreferrer">
+      <span class="media-feature__link-type">MEDIA COVERAGE</span>
+      <strong>The Colorado River's largest tributary flows 'uphill' for over 100 miles — and geologists may finally have an explanation for it”</strong>
+      <span class="media-feature__link-action">Read the Live Science feature (Free) ↗</span>
     </a>
   </div>
 </section>
