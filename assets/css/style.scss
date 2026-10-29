@@ -155,8 +155,7 @@ img { max-width: 100%; height: auto; }
   .site-footer { flex-direction: column; gap: 4px; }
 }
 
-
-/* Fixed viewport decoration: uploaded DEM contours remain in the bottom-right corner while pages scroll. */
+/* Fixed viewport decoration: actual DEM contours, enlarged and softened into an irregular edge. */
 body {
   position: relative;
 }
@@ -164,14 +163,20 @@ body::after {
   content: "";
   position: fixed;
   z-index: 0;
-  right: -64px;
-  bottom: -38px;
-  width: clamp(320px, 46vw, 560px);
+  right: -72px;
+  bottom: -44px;
+  width: clamp(390px, 58vw, 700px);
   aspect-ratio: 783 / 499;
   background-image: url("../img/DEMContours.svg?v=5");
   background-repeat: no-repeat;
   background-size: 138% auto;
   background-position: 58% 58%;
+  -webkit-mask-image: url("../img/contour-mask.svg?v=1");
+  mask-image: url("../img/contour-mask.svg?v=1");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
   pointer-events: none;
   opacity: .27;
 }
@@ -196,17 +201,17 @@ body::after {
 }
 @media (max-width: 900px) {
   body::after {
-    right: -54px;
-    bottom: -26px;
-    width: clamp(270px, 48vw, 390px);
+    right: -60px;
+    bottom: -30px;
+    width: clamp(310px, 57vw, 460px);
     opacity: .24;
   }
 }
 @media (max-width: 560px) {
   body::after {
-    right: -110px;
-    bottom: -22px;
-    width: 285px;
+    right: -118px;
+    bottom: -24px;
+    width: 330px;
     opacity: .22;
   }
 }
