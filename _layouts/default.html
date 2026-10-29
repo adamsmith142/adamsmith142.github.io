@@ -1,128 +1,81 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-GB' }}">
 <head>
-    <!-- ... (existing head content) ... -->
-    <title>Adam G G Smith</title>
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <meta name="description" content="Adam G G Smith is a tectonic geomorphologist, using topographic inversions to understand Earth's dynamic surface."/>
-    <meta name="google-site-verification" content="2DrTr7aopIrwd30IHuE2t7GWT6KOcimbsHDaQYqBdZE" />
- 
-    <!-- ... (existing styles or links) ... -->
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        .wrapper {
-            display: flex;
-            overflow: hidden;
-        }
-
-        header {
-            width: 25%;
-            background-color: #f0f0f0;
-            padding: 20px;
-            box-sizing: border-box;
-            position: fixed;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            z-index: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Center the content horizontally */
-        }
-
-        header h1 {
-            margin-bottom: 10px;
-        }
-
-        header .circular-logo {
-            width: 75%;
-            margin: 0 auto;
-        }
-
-        header .circular-logo img {
-            width: 100%;
-            height: 100%;
-        }
-
-        header p {
-            margin: 5px 0;
-            text-align: center;
-        }
-
-        main {
-            flex: 1;
-            width: 100%;
-            box-sizing: border-box;
-            margin-left: 25%;
-            margin-right: 0;
-            overflow-y: auto;
-            padding: 20px;
-            padding-top: 10px;
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-        }
-
-        .tabs {
-            display: flex;
-            top: -20px;
-            background-color: #333;
-            width: 100%;
-            position: sticky;
-            top: 0;
-            z-index: 2;
-        }
-
-        .tab {
-            flex: 1;
-            padding: 10px 15px;
-            text-align: center;
-            color: #fff;
-            text-decoration: none;
-            border-right: 1px solid #555;
-        }
-
-        .tab:last-child {
-            border-right: none;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title | default: site.github.repository_name }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="theme-color" content="#26332d">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <meta name="google-site-verification" content="2DrTr7aopIrwd30IHuE2t7GWT6KOcimbsHDaQYqBdZE">
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-              <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-            <div class="circular-logo">
-                   <img src="{{site.logo | relative_url}}" alt="Logo" />
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Adam G G Smith — home">
+        {% if site.logo %}
+          <img class="brand__portrait" src="{{ site.logo | relative_url }}" alt="Portrait of Adam G G Smith">
+        {% endif %}
+        <span class="brand__name">{{ site.title | default: site.github.repository_name }}</span>
+      </a>
+      <p class="site-tagline">{{ site.description | default: site.github.project_tagline }}</p>
+      <div class="header-rule" aria-hidden="true"></div>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="site-nav__link{% if page.url == '/' or page.url == '/index.html' %} is-active{% endif %}" href="{{ '/' | relative_url }}">About <span aria-hidden="true">↗</span></a>
+        <a class="site-nav__link{% if page.url contains 'Research' %} is-active{% endif %}" href="{{ '/Research.html' | relative_url }}">Research <span aria-hidden="true">↗</span></a>
+        <a class="site-nav__link{% if page.url contains 'Publications' %} is-active{% endif %}" href="{{ '/Publications.html' | relative_url }}">Publications <span aria-hidden="true">↗</span></a>
+        <a class="site-nav__link{% if page.url contains 'Teaching' %} is-active{% endif %}" href="{{ '/Teaching.html' | relative_url }}">Teaching <span aria-hidden="true">↗</span></a>
+        <a class="site-nav__link{% if page.url contains 'CV' %} is-active{% endif %}" href="{{ '/CV.html' | relative_url }}">CV <span aria-hidden="true">↗</span></a>
+        <a class="site-nav__link{% if page.url contains 'Media' %} is-active{% endif %}" href="{{ '/Media.html' | relative_url }}">In the Media <span aria-hidden="true">↗</span></a>
+      </nav>
+      <div class="header-contact">
+        <span class="eyebrow">GET IN TOUCH</span>
+        <a href="mailto:adam.smith@glasgow.ac.uk">adam.smith@glasgow.ac.uk</a>
+        <div class="social-links">
+          <a href="https://github.com/adamsmith142" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://twitter.com/adamlikesrocks" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+          <a href="https://www.linkedin.com/in/adam-smith-geomorphology/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </header>
 
-            </div>
-            <p>{{ site.description | default: site.github.project_tagline }}</p>
-            <!-- Add your contact details here -->
-            <p>Email: <a href="mailto:adam.smith@glasgow.ac.uk">adam.smith@glasgow.ac.uk</a></p>
-            <p>Twitter: <a href="https://twitter.com/adamlikesrocks" target="_blank" rel="noopener noreferrer">@AdamLikesRocks</a></p>
-            <p>Github: <a href="https://github.com/adamsmith142">adamsmith142</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/adam-smith-geomorphology/">Adam Smith</a></p>
-            <!-- ... (existing header content) ... -->
-        </header>
-        <main>
-            <div class="tabs">
-                <a href="{{ "/Research" | Adam G G Smith's Research}}" class="tab">Research</a>
-                <a href="{{ "/Publications" | Adam G G Smith }}" class="tab">Publications</a>
-                <a href="{{ "/Teaching" | Adam G G Smith }}" class="tab">Teaching</a>
-                <a href="{{ "/CV" | Adam G G Smith }}" class="tab">CV</a>
-            </div>
-            {{ content }}
-        </main>
-    </div>
-    <footer>
-        <!-- ... (existing footer content) ... -->
-    </footer>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <main id="main-content" class="site-main">
+      <div class="page-topline">
+        <span class="eyebrow">EARTH SURFACE · TECTONICS · MODELLING</span>
+        <span class="page-index" aria-hidden="true">FIELD NOTES / {{ page.title | default: 'ABOUT' | upcase }}</span>
+      </div>
+      <article class="page-content">
+        {{ content }}
+      </article>
+      <footer class="site-footer">
+        <span>Adam G G Smith</span>
+        <span>Understanding Earth's dynamic surface.</span>
+        <a href="#main-content">Back to top ↑</a>
+      </footer>
+    </main>
+  </div>
+  <script>
+    // Keep page reveals subtle and respect reduced-motion preferences.
+    (function () {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      document.documentElement.classList.add('motion-ok');
+      var sections = document.querySelectorAll('.page-content h2, .page-content h3, .page-content p, .page-content li, .page-content img, .media-card');
+      if (!('IntersectionObserver' in window)) return;
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08 });
+      sections.forEach(function (item) { item.classList.add('reveal'); observer.observe(item); });
+    }());
+  </script>
 </body>
 </html>
