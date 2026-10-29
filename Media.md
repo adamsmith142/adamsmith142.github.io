@@ -35,12 +35,12 @@ I’m interested in sharing what landscapes can tell us about the dynamic Earth 
     </a>
      <a class="media-feature__link" href="https://www.nationalgeographic.com.es/ciencia/rio-estados-unidos-desafio-leyes-gravedad-geologia-cree-saber-por-fin-por-que_27434#google_vignette" target="_blank" rel="noopener noreferrer">
       <span class="media-feature__link-type">INTERNATIONAL MEDIA</span>
-      <strong>Spanish speaking coverage in the National Geographic”</strong>
+      <strong>Spanish speaking coverage in the National Geographic</strong>
       <span class="media-feature__link-action">Read in Spanish ↗</span>
     </a>
      <a class="media-feature__link" href="https://www.aljazeera.net/science/2026/3/18/علماء-يكشفون-لغز-النهر-الصاعد-الذي-حير" target="_blank" rel="noopener noreferrer">
       <span class="media-feature__link-type">INTERNATIONAL MEDIA</span>
-      <strong>Coverage of the story in Arabic by Al Jazeera”</strong>
+      <strong>Coverage of the story in Arabic by Al Jazeera</strong>
       <span class="media-feature__link-action">Read in Arabic ↗</span>
     </a>
   </div>
