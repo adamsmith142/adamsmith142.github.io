@@ -156,7 +156,7 @@ img { max-width: 100%; height: auto; }
 }
 
 
-/* Detailed topographic contours sit quietly in the bottom corners. */
+/* The user's home-town DEM contours, styled as quiet corner artwork. */
 .site-main {
   position: relative;
   isolation: isolate;
@@ -167,34 +167,34 @@ img { max-width: 100%; height: auto; }
   content: "";
   position: absolute;
   z-index: -1;
-  bottom: 0;
-  width: clamp(260px, 38vw, 470px);
-  aspect-ratio: 640 / 420;
-  background-image: url("/assets/img/topographic-contours.svg");
+  bottom: -12px;
+  width: clamp(300px, 43vw, 520px);
+  aspect-ratio: 783 / 499;
+  background-image: url("/assets/img/DEMContours.svg");
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;
-  opacity: .19;
+  opacity: .18;
 }
-.site-main::before { left: -100px; }
+.site-main::before { left: -118px; }
 .site-main::after {
-  right: -105px;
+  right: -118px;
   transform: scaleX(-1);
   opacity: .15;
 }
 @media (max-width: 900px) {
   .site-main::before, .site-main::after {
-    width: clamp(220px, 42vw, 340px);
+    width: clamp(245px, 44vw, 360px);
     opacity: .15;
   }
-  .site-main::before { left: -90px; }
-  .site-main::after { right: -90px; }
+  .site-main::before { left: -100px; }
+  .site-main::after { right: -100px; }
 }
 @media (max-width: 560px) {
   .site-main::before, .site-main::after {
-    width: 230px;
+    width: 245px;
     opacity: .12;
   }
-  .site-main::before { left: -105px; }
-  .site-main::after { right: -105px; }
+  .site-main::before { left: -118px; }
+  .site-main::after { right: -118px; }
 }
