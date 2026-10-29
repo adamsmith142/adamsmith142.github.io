@@ -5,13 +5,9 @@ description: Adam G G Smith is a tectonic geomorphologist using topographic inve
 
 <section class="home-intro">
   <span class="eyebrow">TECTONIC GEOMORPHOLOGY · LANDSCAPE EVOLUTION</span>
-
-  # Understanding Earth's dynamic surface.
-
-  I'm Adam, a Postdoctoral Research Associate at the University of Glasgow. I use numerical modelling, combined with field observations and laboratory-derived data, to understand Earth-surface processes and tectonics.
-
-  My research explores how landscapes record the interactions between climate, tectonics, and the processes that continually reshape our planet.
-
+  <h1>Understanding Earth's dynamic surface.</h1>
+  <p>I'm Adam, a Postdoctoral Research Associate at the University of Glasgow. I use numerical modelling, combined with field observations and laboratory-derived data, to understand Earth-surface processes and tectonics.</p>
+  <p>My research explores how landscapes record the interactions between climate, tectonics, and the processes that continually reshape our planet.</p>
   <div class="home-actions">
     <a class="button-link button-link--primary" href="{{ '/Research.html' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
     <a class="button-link button-link--secondary" href="{{ '/Publications.html' | relative_url }}">Browse publications <span aria-hidden="true">↗</span></a>
@@ -20,8 +16,7 @@ description: Adam G G Smith is a tectonic geomorphologist using topographic inve
 
 <hr>
 
-## Explore
-
+<h2>Explore</h2>
 <div class="feature-grid">
   <a class="feature-card" href="{{ '/Research.html' | relative_url }}">
     <span class="feature-card__number">01 / RESEARCH</span>
@@ -45,8 +40,6 @@ description: Adam G G Smith is a tectonic geomorphologist using topographic inve
   </a>
 </div>
 
-## Get in touch
-
-I'm always happy to hear from researchers, prospective collaborators, students, and people interested in how landscapes evolve.
-
-[Email me](mailto:adam.smith@glasgow.ac.uk) · [GitHub](https://github.com/adamsmith142) · [LinkedIn](https://www.linkedin.com/in/adam-smith-geomorphology/)
+<h2>Get in touch</h2>
+<p>I'm always happy to hear from researchers, prospective collaborators, students, and people interested in how landscapes evolve.</p>
+<p><a href="mailto:adam.smith@glasgow.ac.uk">Email me</a> · <a href="https://github.com/adamsmith142">GitHub</a> · <a href="https://www.linkedin.com/in/adam-smith-geomorphology/">LinkedIn</a></p>
