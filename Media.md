@@ -10,7 +10,7 @@ I’m interested in sharing what landscapes can tell us about the dynamic Earth 
 <section class="media-feature">
   <span class="media-feature__eyebrow">FEATURED RESEARCH STORY · 2026</span>
   <h2>How did the Green River cut through the Uinta Mountains?</h2>
-  <p class="media-feature__standfirst">For more than a century, geologists have debated how the Green River came to cut through the Uinta Mountains and join the Colorado River. Our research suggests that a process deep beneath the mountains — a <em>lithospheric drip</em> — changed the landscape and helped make this remarkable river course possible.</p>
+  <p class="media-feature__standfirst">For more than a century, geologists have debated how the Green River crossed the Uinta Mountains to join the Colorado River. Our research suggests that a geodynamic processes known as lithospheric dripping temporarily lowered the topography of the Uinta Mountains, allowing the Green River to flow over them, creating the modern day Colorado River system.</p>
   <p>By combining topographic inversions with geological and geophysical evidence, the study connects processes deep within the Earth to the evolution of river networks, mountain topography and continental drainage.</p>
   <div class="media-feature__links">
     <a class="media-feature__link" href="https://doi.org/10.1029/2025JF008733" target="_blank" rel="noopener noreferrer">
