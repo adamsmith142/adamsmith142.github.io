@@ -18,7 +18,7 @@ In this study, I use a two-dimensional topographic inversion of relict river pro
 
 The study provides a geodynamic mechanism linking deep-Earth processes to surface uplift and the integration of a continental-scale river system, with consequences for the hydrological and biogeographical evolution of North America.
 
-[Read the paper: A lithospheric drip triggered Green and Colorado River integration](https://doi.org/10.1029/2025JF008733) [Related media coverage]({{ '/Media.html' | relative_url }})
+[Read the paper: A lithospheric drip triggered Green and Colorado River integration](https://doi.org/10.1029/2025JF008733)·[Related media coverage]({{ '/Media.html' | relative_url }})
 
 ## Reconstructing rock uplift on the Wasatch Fault
 
