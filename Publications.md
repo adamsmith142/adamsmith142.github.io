@@ -3,7 +3,7 @@ A link to my google scholar can be found [here](https://scholar.google.com/citat
 ### Publications
 **Smith, A.G.G.**, Fox, M., Akinwale, O., Rugen, E.J. 2026. How does lithology influence fluvial erodibility? A study of knickpoint retreat in small bedrock rivers on the Isle of Jura. Earth Surface Processes and Landforms. [Read the paper](https://doi.org/10.1002/esp.70387)
 
-Fox, M., **Smith, A.G.G.**, Vermeesch, P., Gallagher, K., Carter, A. 2026. Uncertainty in helium diffusion in zircon limits thermochronologic resolution: application to the Great Unconformity. Geochronology. [Read the paper](doi.org/10.5194/gchron-8-463-2026)
+Fox, M., **Smith, A.G.G.**, Vermeesch, P., Gallagher, K., Carter, A. 2026. Uncertainty in helium diffusion in zircon limits thermochronologic resolution: application to the Great Unconformity. Geochronology. [Read the paper](https://doi.org/10.5194/gchron-8-463-2026)
 
 Han, X., **Smith, A.G.G.**, Dai, J., Fox, M. 2026. Reply to: Himalaya rivers reflect rainfall patterns, not river piracy. Nature Geoscience. doi.org/10.1038/s41561-026-02061-7
 
