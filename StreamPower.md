@@ -8,11 +8,11 @@ description: Developing and evaluating methods to estimate concavity and channel
 
 # Stream Power Parameters
 
-The stream power incision model provides a widely used framework for understanding how rivers incise into bedrock and how river profiles respond to changes in tectonics and climate. Two important parameters in this model are the concavity index, commonly expressed as the ratio *m/n*, and the channel steepness index, *k*ₛ. Their accurate estimation is essential if river profiles are to be used to infer spatial and temporal variations in rock uplift.
+The stream power incision model provides a widely used framework for understanding how rivers incise into bedrock, allowing researchers to understand how broad scale variation in climate and tectonics influences landscape evolution. One of the ways we can use the stream power model in tectonic geomorphology is to relate the stream power incision model to the parameters of channel steepness index, *k*ₛ, and the concavity index. I have worked on idenifying which current methods are best at accurately inferring these parameters, and developed new quantitive methods to accurately infer them.
 
 ## When does the concavity index constrain stream power parameters?
 
-The concavity index is often estimated using methods that assume rock uplift rate and erodibility are spatially uniform. However, these conditions are rarely met in natural landscapes. Spatial variations — and particularly spatial gradients — in these processes can introduce systematic errors into commonly used estimates of *m/n*.
+The concavity index is often estimated using methods that assume rock uplift rate and erodibility are spatially uniform. However, these conditions are rarely met in natural landscapes. Spatial variations, and particularly spatial gradients, in these processes can introduce systematic errors into the *m/n* inference.
 
 In this study, I develop a new method to estimate *m/n* using a large river-network topographic inversion. Rather than relying on the assumption of spatially uniform channel steepness, the inversion allows channel steepness to vary across the landscape while identifying the *m/n* value that best reproduces the observed topography. Tests using synthetic landscapes and real river networks from the Siwalik Hills and Olympic Mountains demonstrate that the method can recover reliable estimates where existing approaches may produce biased results. This provides a way to estimate a key stream power parameter in landscapes where uplift and erodibility vary spatially.
 
