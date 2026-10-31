@@ -6,7 +6,7 @@ description: Adam G G Smith is a tectonic geomorphologist using topographic inve
 <section class="home-intro">
   <span class="eyebrow">TECTONIC GEOMORPHOLOGY · LANDSCAPE EVOLUTION</span>
   <h1>Understanding Earth's dynamic surface.</h1>
-  <p>I'm Adam, a Postdoctoral Research Associate at the University of Glasgow. I use numerical modelling, combined with field observations and laboratory-derived data, to understand Earth-surface processes and tectonics.</p>
+  <p>I'm Adam, a Postdoctoral Research Associate at the University of Glasgow. I use numerical modelling, combined with field observations and laboratory-derived data, to understand Earth surface processes and tectonics.</p>
   <p>My research explores how landscapes record the interactions between climate, tectonics, and the processes that continually reshape our planet.</p>
   <div class="home-actions">
     <a class="button-link button-link--primary" href="{{ '/Research.html' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
