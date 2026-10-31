@@ -27,13 +27,13 @@
       <div class="header-rule" aria-hidden="true"></div>
       <nav class="site-nav" aria-label="Main navigation">
         <a class="site-nav__link{% if page.url == '/' or page.url == '/index.html' %} is-active{% endif %}" href="{{ '/' | relative_url }}">About <span aria-hidden="true">↗</span></a>
-        <details class="site-nav__dropdown"{% if page.url contains 'Research' or page.url contains 'Wasatch' or page.url contains 'Sierra' or page.url contains 'Uinta' %} open{% endif %}>
-          <summary class="site-nav__link{% if page.url contains 'Research' or page.url contains 'Wasatch' or page.url contains 'Sierra' or page.url contains 'Uinta' %} is-active{% endif %}">Research <span class="site-nav__chevron" aria-hidden="true">⌄</span></summary>
+        <details class="site-nav__dropdown"{% if page.url contains 'Research' or page.url contains 'Tectonics' or page.url contains 'StreamPower' or page.url contains 'FluvialErosion' %} open{% endif %}>
+          <summary class="site-nav__link{% if page.url contains 'Research' or page.url contains 'Tectonics' or page.url contains 'StreamPower' or page.url contains 'FluvialErosion' %} is-active{% endif %}">Research <span class="site-nav__chevron" aria-hidden="true">⌄</span></summary>
           <div class="site-nav__submenu">
             <a href="{{ '/Research.html' | relative_url }}"{% if page.url contains 'Research' %} aria-current="page"{% endif %}>Research overview</a>
-            <a href="{{ '/Wasatch.html' | relative_url }}"{% if page.url contains 'Wasatch' %} aria-current="page"{% endif %}>Wasatch Range</a>
-            <a href="{{ '/Sierra.html' | relative_url }}"{% if page.url contains 'Sierra' %} aria-current="page"{% endif %}>Sierra Nevada</a>
-            <a href="{{ '/Uinta.html' | relative_url }}"{% if page.url contains 'Uinta' %} aria-current="page"{% endif %}>Uinta Mountains</a>
+            <a href="{{ '/Tectonics.html' | relative_url }}"{% if page.url contains 'Tectonics' %} aria-current="page"{% endif %}>Tectonics from Topography</a>
+            <a href="{{ '/StreamPower.html' | relative_url }}"{% if page.url contains 'StreamPower' %} aria-current="page"{% endif %}>Stream Power Parameters</a>
+            <a href="{{ '/FluvialErosion.html' | relative_url }}"{% if page.url contains 'FluvialErosion' %} aria-current="page"{% endif %}>Mechanics of Fluvial Erosion</a>
           </div>
         </details>
         <a class="site-nav__link{% if page.url contains 'Publications' %} is-active{% endif %}" href="{{ '/Publications.html' | relative_url }}">Publications <span aria-hidden="true">↗</span></a>
