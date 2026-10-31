@@ -8,11 +8,11 @@ description: Using topographic inversions and river networks to reconstruct rock
 
 # Tectonics from Topography
 
-Earth's topography is a record of the processes that have shaped the landscape. River networks in particular preserve information about changes in rock uplift and base level over geological timescales. I use topographic inversions to extract this information, reconstructing histories of surface deformation and testing how tectonic and geodynamic processes influence landscape evolution.
+Earth's topography records the processes that shaped it. River networks in particular preserve information about changes in rock uplift, climate and base level over geological timescales. I use topographic inversions to extract this information, reconstructing histories of rock and surface uplift and examining how tectonic and geodynamic processes influence landscape evolution.
 
 ## A lithospheric drip triggered Green and Colorado River integration
 
-The integration of the Green and Colorado rivers was a major event in the evolution of North American drainage, shifting the continental drainage divide and connecting river systems that had previously been separate. Yet the Green River cuts through the Uinta Mountains, a range that formed more than 50 million years ago and had not experienced active compressional tectonics for tens of millions of years.
+The integration of the Green and Colorado rivers shifting the continental drainage divide of North America, and connected previously separated river systems and habitats. To do this, the Green River had to cut through the Uinta Mountains. Stratigraphic and sedimentary evidence suggests that the Green River and Colorado River were connected between 8 and 1.5 million years ago, but we also know that the Uinta Mountains formed approximately 50 million years ago. This begs the question, how did the Green River cross a mountain range that had already formed? This question has been the topic of debate amongst geologists and geomorphologists for almost 150 years. 
 
 In this study, I use a two-dimensional topographic inversion of relict river profiles draining the Uinta Mountains to reconstruct changes in elevation relative to former river base level. The spatial pattern of the inversion results suggests that the relict topography is best explained by an increase in rock uplift, rather than simply a fall in river base level. We propose that a lithospheric drip beneath the range drove this uplift. The estimated timing of drip detachment (approximately 2.3–4.7 million years ago) is consistent with the response time recorded by the river networks and geological constraints on Green River integration.
 
