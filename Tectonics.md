@@ -34,6 +34,6 @@ I used river-network inversions to reconstruct the rock-uplift history of the Wa
 
 *Rock-uplift history of the Wasatch Range inferred from three river networks.*
 
-**Related publication:** Smith, A.G.G., Fox, M., Moore, J.R., Miller, S.R., Goren, L., Morriss, M.C. and Carter, A. (2024). *One million years of climate driven rock uplift on the Wasatch Fault revealed by fluvial topography.* American Journal of Science, 324(1).
+[Read the paper: One million years of climate driven rock uplift on the Wasatch Fault revealed by fluvial topography](https://doi.org/10.2475/001c.92194)
 
 [Back to research overview]({{ '/Research.html' | relative_url }})
