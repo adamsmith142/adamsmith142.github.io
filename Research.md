@@ -1,34 +1,34 @@
 ---
 title: Research
-description: Research using topographic inversions and landscape evolution models to understand Earth's dynamic surface.
+description: Research exploring tectonics, stream power parameters and the mechanics of fluvial erosion through topographic analysis.
 ---
 
 <section class="research-intro">
-  <span class="eyebrow">RESEARCH THEMES · LANDSCAPE EVOLUTION</span>
-  <h1>Reading the stories written into landscapes.</h1>
-  <p class="research-standfirst">Earth's topography records the combined effects of tectonics, climate, erosion and changing environmental conditions. My research develops and applies quantitative methods — especially topographic inversions — to disentangle these processes and understand how the Earth's surface evolves.</p>
-  <p>I work across timescales, combining river-network analysis and numerical modelling with field observations and independent geological constraints. Explore three projects below.</p>
+  <span class="eyebrow">RESEARCH THEMES · TECTONIC GEOMORPHOLOGY · FLUVIAL PROCESSES</span>
+  <h1>Understanding Earth's dynamic surface.</h1>
+  <p class="research-standfirst">My research uses the shape of the landscape to understand the processes that have shaped it. I develop and apply topographic inversions and quantitative approaches to river networks, exploring how tectonics, stream power and the mechanics of fluvial erosion are recorded in Earth's topography.</p>
+  <p>These themes bring together work across a range of landscapes and timescales, from million-year histories of rock uplift to the retreat of individual river knickpoints.</p>
 </section>
 
 <div class="project-grid">
-  <a class="project-card" href="{{ '/Wasatch.html' | relative_url }}">
-    <span class="project-card__number">01 / TECTONICS</span>
-    <h2>Rock uplift in the Wasatch Range</h2>
-    <p>Using river-network inversions and independent geological evidence to reconstruct the million-year history of the Wasatch Fault.</p>
-    <span class="project-card__link">Explore the project <span aria-hidden="true">↗</span></span>
+  <a class="project-card" href="{{ '/Tectonics.html' | relative_url }}">
+    <span class="project-card__number">01 / TOPOGRAPHIC INVERSION</span>
+    <h2>Tectonics from Topography</h2>
+    <p>Using river networks and topographic inversions to reconstruct rock uplift and understand how deep-Earth processes influence landscape evolution.</p>
+    <span class="project-card__link">Explore this theme <span aria-hidden="true">↗</span></span>
   </a>
-  <a class="project-card" href="{{ '/Sierra.html' | relative_url }}">
-    <span class="project-card__number">02 / DYNAMIC TOPOGRAPHY</span>
-    <h2>Surface uplift in the Sierra Nevada</h2>
-    <p>Using relict topography and river networks to investigate recent surface uplift across the southern Sierra Nevada.</p>
-    <span class="project-card__link">Explore the project <span aria-hidden="true">↗</span></span>
+  <a class="project-card" href="{{ '/StreamPower.html' | relative_url }}">
+    <span class="project-card__number">02 / RIVER NETWORK ANALYSIS</span>
+    <h2>Stream Power Parameters</h2>
+    <p>Developing and evaluating methods to estimate the concavity index and channel steepness, two fundamental parameters in the stream power model.</p>
+    <span class="project-card__link">Explore this theme <span aria-hidden="true">↗</span></span>
   </a>
-  <a class="project-card project-card--featured" href="{{ '/Uinta.html' | relative_url }}">
-    <span class="project-card__number">03 / LITHOSPHERIC DYNAMICS</span>
-    <h2>The Uinta Mountains and the evolving Colorado River system</h2>
-    <p>Investigating how deep-Earth processes and landscape evolution shape active uplift and the integration of river networks in the American West.</p>
-    <span class="project-card__link">Explore the project <span aria-hidden="true">↗</span></span>
+  <a class="project-card project-card--featured" href="{{ '/FluvialErosion.html' | relative_url }}">
+    <span class="project-card__number">03 / EROSION MECHANICS</span>
+    <h2>Mechanics of Fluvial Erosion</h2>
+    <p>Investigating how bedrock strength and sediment tools influence fluvial erodibility and the retreat of knickpoints.</p>
+    <span class="project-card__link">Explore this theme <span aria-hidden="true">↗</span></span>
   </a>
 </div>
 
-<p class="research-note">These projects are connected by a common question: how can we use the shape of the landscape to recover the processes that created it?</p>
+<p class="research-note">Across these themes, my aim is to connect the form of river networks and landscapes to the tectonic, climatic and physical processes that drive their evolution.</p>
