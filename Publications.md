@@ -1,4 +1,4 @@
-A link to my google scholar can be found [here](https://scholar.google.com/citations?user=5Y21a5YAAAAJ&hl=en), and a list of published and ongoing studies can be found below.
+A link to my google scholar can be found [here](https://scholar.google.com/citations?user=5Y21a5YAAAAJ&hl=en), and a list of published studies can be found below.
 
 ### Publications
 **Smith, A.G.G.**, Fox, M., Akinwale, O., Rugen, E.J. 2026. How does lithology influence fluvial erodibility? A study of knickpoint retreat in small bedrock rivers on the Isle of Jura. Earth Surface Processes and Landforms. [Read the paper](https://doi.org/10.1002/esp.70387)
