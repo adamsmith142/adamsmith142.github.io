@@ -14,7 +14,19 @@ Earth's topography records the processes that shaped it. River networks in parti
 
 The integration of the Green and Colorado rivers shifting the continental drainage divide of North America, and connected previously separated river systems and habitats. To do this, the Green River had to cut through the Uinta Mountains. Stratigraphic and sedimentary evidence suggests that the Green River and Colorado River were connected between 8 and 1.5 million years ago, but we also know that the Uinta Mountains formed approximately 50 million years ago. This begs the question, how did the Green River cross a mountain range that had already formed? This question has been the topic of debate amongst geologists and geomorphologists for almost 150 years. 
 
+<figure>
+  <img src="{{ '/images/UintaFieldwork.jpeg' | relative_url }}"
+       alt="Landscape of the Uinta Mountains and me in the foreground">
+  <figcaption><em>Exploring the dramatic scenery of the Uinta Mountains during a field campaign in my PhD.</em></figcaption>
+</figure>
+
 In this study, I use a two-dimensional topographic inversion of relict river profiles draining the Uinta Mountains to reconstruct changes in elevation relative to former river base level. The spatial pattern of the inversion results suggests that the relict topography is best explained by an increase in rock uplift, rather than simply a fall in river base level. We propose that a lithospheric drip beneath the range drove this uplift. The estimated timing of drip detachment (approximately 2.3–4.7 million years ago) is consistent with the response time recorded by the river networks and geological constraints on Green River integration.
+
+<figure>
+  <img src="{{ '/images/Summary_Figure.png' | relative_url }}"
+       alt="Schematic cartoon explaining the drip scenario for integration of the Green River and Colorado River through the Uinta Mountains">
+  <figcaption><em>A schematic cartoon demonstrating the timing and mechanism we proposed for the Green River crossing the Uinta Mountains </em></figcaption>
+</figure>
 
 The study provides a geodynamic mechanism linking deep-Earth processes to surface uplift and the integration of a continental-scale river system, with consequences for the hydrological and biogeographical evolution of North America.
 
