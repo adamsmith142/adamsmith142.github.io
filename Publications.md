@@ -14,6 +14,7 @@ Lanari, R., Bonini, M., Sembroni, A., Papeschi, S., Del Ventisette, C., **Smith,
 **Smith, A.G.G.** and Fox, M. 2024. When does the concavity index constrain stream power parameters? Journal of Geophysical Research: Earth Surface, 129 (9), e2023JF007584. [Read the paper](https://doi.org/10.1029/2023JF007584)
 
 *Han, X., Dai, J., **Smith, A.G.G.**, Xu, S., Liu, B., Wang, C., Fox, M. 2024. Recent uplift of Chomolungma enhanced by river drainage piracy. Nature Geoscience.  [Read the paper](https://doi.org/10.1038/s41561-024-01535-w)
+
 Fox, M., Clinger, A., **Smith, A.G.G.**, Cuffey, K., Shuster, D., Herman, F., 2024. Antarctic Peninsula glaciation patterns set by landscape evolution and dynamic topography. Nature Geoscience. [Read the paper](https://doi.org/10.1038/s41561-023-01336-7) 
 
 Rugen, E.J., Pastore, G., Vermeesch, P., Spencer, A., Webster, D., **Smith, A.G.G.**, Carter, A., Shields, G. 2024. Glacially influenced provenance and Sturtian affinity revealed by detrital zircon U-Pb ages from the Port Askaig Formation, Dalradian Supergroup. Journal of the Geological Society. [Read the paper](https://doi.org/10.1144/jgs2024-029)
