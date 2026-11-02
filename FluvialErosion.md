@@ -16,6 +16,12 @@ The Isle of Jura, on the west coast of Scotland, preserves a suite of fluvial kn
 
 In this study, we combine Schmidt hammer measurements of rock strength with models of knickpoint retreat to test different ways of representing erodibility. We compare a spatially uniform erodibility, an approach that scales erodibility directly with bedrock strength, and a model that accounts for the contrast between the strength of the bedrock and the sediment transported by the river (the bed load).
 
+<figure>
+  <img src="{{ '/images/JuraFieldwork.jpeg' | relative_url }}"
+       alt="A photo of me taking measurements with the Schmidt hammer in a quarry on Jura">
+  <figcaption><em>Taking measurements of rock strength from the different lithologies on the Isle of Jura</em></figcaption>
+</figure>
+
 We find that simply assigning different erodibility values to different rock types does not improve predictions of knickpoint retreat. Instead, the model that accounts for the contrast between bedrock and bed-load strength provides the best fit to the observed knickpoint response times. The results highlight that lithological controls on fluvial erosion are more complex than a direct relationship between rock strength and erodibility, with implications for how lithology is represented in landscape evolution models.
 
 This research was supported by a **British Society for Geomorphology Postgraduate Research Grant**, which funded fieldwork on the Isle of Jura.
