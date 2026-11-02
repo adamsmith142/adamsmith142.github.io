@@ -12,7 +12,7 @@ description: Research exploring tectonics, stream power parameters and the mecha
 
 <div class="project-grid">
   <a class="project-card" href="{{ '/Tectonics.html' | relative_url }}">
-    <span class="project-card__number">01 / TOPOGRAPHIC INVERSIONs</span>
+    <span class="project-card__number">01 / TOPOGRAPHIC INVERSIONS</span>
     <h2>Tectonics from Topography</h2>
     <p>Using topographic inversions to reconstruct rock uplift rates and understand how deep-Earth processes influence landscape evolution.</p>
     <span class="project-card__link">Explore this theme <span aria-hidden="true">↗</span></span>
