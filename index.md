@@ -26,7 +26,7 @@ description: Adam G G Smith is a tectonic geomorphologist using topographic inve
   <a class="feature-card" href="{{ '/Publications.html' | relative_url }}">
     <span class="feature-card__number">02 / PUBLICATIONS</span>
     <strong>Research and papers</strong>
-    <span>Peer-reviewed work, current manuscripts, and a link to my Google Scholar profile.</span>
+    <span>Peer-reviewed work and a link to my Google Scholar profile.</span>
   </a>
   <a class="feature-card" href="{{ '/Teaching.html' | relative_url }}">
     <span class="feature-card__number">03 / TEACHING</span>
