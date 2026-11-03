@@ -2,7 +2,7 @@
 
 ## Lectures and tutorials
 
-- **Understanding the Climate Crisis** (2026, University of Glasgow) — Development and delivery of eight one-hour group exercises for a 30-credit course taken by approximately 200 first- and second-year students across the social sciences, sciences and humanities. Incorporating interactive multimedia tools, including Mentimeter and Padlet, into exercises to support student engagement and discussion.
+- **Understanding the Climate Crisis** (2026, University of Glasgow) — Development and delivery of eight one-hour interactive lectures for a 30-credit course taken by approximately 200 first- and second-year students across the social sciences, sciences and humanities. Incorporating multimedia tools, including Mentimeter and Padlet, to support student engagement and discussion.
 - **Physical Geography: Coastal Landscapes — Mass Movement** (2025, University of Glasgow) — Delivered one-hour tutorials to small groups of up to six first-year geography students.
 - **Tectonic Geomorphology** (2023, UCL) — Delivered a two-hour lecture to fourth-year Master's students.
 
